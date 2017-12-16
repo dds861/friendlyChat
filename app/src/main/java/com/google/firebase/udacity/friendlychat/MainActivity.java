@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         mMessageAdapter = new MessageAdapter(this, R.layout.item_message, friendlyMessages);
         mMessageListView.setAdapter(mMessageAdapter);
 
-        // Initialize progress bar
+        // Initialize progress ba r
         mProgressBar.setVisibility(ProgressBar.INVISIBLE);
 
         // ImagePickerButton shows an image picker to upload a image for a message
